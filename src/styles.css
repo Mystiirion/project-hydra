@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0B0F14;
+  color: white;
+}
+
+.app {
+  max-width: 430px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background: #111827;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.primary {
+  background: #00FFA3;
+  color: black;
+}
+
+.secondary {
+  background: #1f2937;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 10px;
+  background: #1f2937;
+  color: white;
+}
+
+.player-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  color: #00FFA3;
+}
+
+.red {
+  color: #FF4D6D;
+}
+
+.small {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+hr {
+  border: 1px solid #1f2937;
+  margin: 20px 0;
+}
